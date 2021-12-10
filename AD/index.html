@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade Digital</title>
+</head>
+<style>
+     :root {
+        --cor0: #FFFFFF;
+        --cor1: #EEF5DB;
+        --cor2: #7C7A7A;
+        --cor3: #494949;
+        --cor4: #000000;
+        --cor5: #FF8552;
+    }
+    
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: var(--cor1);
+    }
+    
+    main {
+        justify-content: center;
+        min-width: 300px;
+        max-width: 1000px;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .parag-ini {
+        background-color: black;
+        color: var(--cor0);
+        text-align: center;
+    }
+    
+    .parag {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .ini {
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+    }
+    
+    .ini-list {
+        text-align: left;
+        font-weight: bold;
+        margin: 10px;
+    }
+    
+    nav {
+        background-color: var(--cor4);
+        border-radius: 0px 0px 5px 5px;
+        height: 50px;
+    }
+    
+    .link-m,
+    .link-s,
+    .nav-news,
+    .nav-contact {
+        text-decoration: none;
+        color: var(--cor0);
+        display: block;
+        padding: 0px 20px;
+    }
+    
+    .link-m:hover,
+    .nav-news:hover,
+    .nav-contact:hover {
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 10px 10px 0px 0px;
+        color: var(--cor5);
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul#ul-principal {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .ul-news,
+    .ul-contact {
+        display: none;
+    }
+    
+    .li-p {
+        line-height: 50px;
+        float: left;
+    }
+    
+    .li-s {
+        background-color: var(--cor4);
+    }
+    
+    .lin,
+    .list {
+        color: var(--cor5);
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    
+    .img {
+        padding-left: 38px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 930px;
+        height: 500px;
+    }
+    
+    div {
+        font: 15pt Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: var(--cor5);
+        padding: 5pt 5pt 5pt 5pt;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .letter {
+        margin: 7px;
+    }
+    
+    .js {
+        margin: 7px;
+        background-image: linear-gradient();
+        border-radius: 3px;
+    }
+    
+    .but {
+        margin: 7px;
+        font-size: 12pt;
+    }
+    
+    footer {
+        background-color: var(--cor4);
+        color: var(--cor1);
+        text-align: center;
+    }
+    
+    footer #personal-link {
+        color: var(--cor1);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    footer #personal-link:hover {
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 10px 10px 0px 0px;
+        color: var(--cor5);
+    }
+</style>
+
+<body>
+    <h1 class="parag-ini">Acessibilidade Digital</h1>
+    <nav>
+        <ul id="ul-principal">
+            <li class="li-p"><a href="#" class="link-m">HOME</a></li>
+            <li class="li-p">
+                <a href="#" class="nav-news">NOTÍCIAS</a>
+                <ul class="ul-news">
+                    <li class="li-s"><a href="#" class="link-s">LINK 1</a></li>
+                    <li class="li-s"><a href="#" class="link-s">LINK 2</a></li>
+                    <li class="li-s"><a href="#" class="link-s">LINK 3</a></li>
+                </ul>
+            </li>
+            <li class="li-p">
+                <a href="#" class="nav-contact">FALE CONOSCO</a>
+                <ul class="ul-contact">
+                    <li class="li-s"><a href="#" class="link-s">LINK 1</a></li>
+                    <li class="li-s"><a href="#" class="link-s">LINK 2</a></li>
+                    <li class="li-s"><a href="#" class="link-s">LINK 3</a></li>
+                </ul>
+            </li>
+            <li class="li-p"><a href="#" class="link-m">SOBRE</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1 class="parag">Por que tão difícil?</h1>
+
+            <p class="ini">Iniciamos o século já com a premissa de que viveríamos a era da tecnologia, hoje 2021 temos ainda mais certeza disso, uma vez que tudo hoje gira em torno da tecnologia.<br> Mas por que ainda existem tão poucas formas de acessibilidade no mundo
+                digital? Certamente a falta de interesse, e investimentos são algumas das respostas mais óbvias.</p>
+
+            <h1 class="parag">Qual a importância da acessibilidade digital?</h1>
+
+            <p class="ini">Essa situação pode ser vista de diversas formas, sejam elas <strong>sentimentais</strong> ou
+                <strong>financeiras</strong>, por exemplo.<br>Partindo da emoção humana mais básica, amor ao próximo, passamos horas nos deleitando de diversas formas, e totalmente imersos no entretenimento que o mundo digital pode proporcionar, por que
+                eles não podem?<br>Partindo do ponto de vista financeiro no Brasil, por exemplo, <strong>existem mais de
+                    10 milhões de deficientes auditivos</strong>, <a href="https://www.researchgate.net/publication/225469903_Improving_multimodal_web_accessibility_for_deaf_people_Sign_language_interpreter_module" target="_blank" rel="external" class="lin">cerca de 80% são analfabetos nas línguas escritas</a>.
+                Falamos de
+                <strong>5% da população nacional que não têm acesso a qualquer tipo de site</strong>. Se incluirmos deficientes visuais que não possuem um leitor de tela no computador, ou pessoas com dislexia severa, pelo menos <strong>45 milhões de brasileiros têm algum tipo de deficiência. Isso representa quase 25% da
+                    população</strong>, segundo o último levantamento feito pelo Instituto Brasileiro de Geografia e Estatística (IBGE). Não apostar na acessibilidade digital, é obviamente aceitar perder dinheiro, e aceitar que sua marca terá uma capilaridade
+                reduzida.
+            </p>
+
+            <h1 class="parag">Por que pouco avanço na área?</h1>
+
+            <p class="ini">Antes de pensarmos em quebrar essa barreira da acessibilidade, precisamos quebrar a da mentalidade. Durante o desenvolvimento de qualquer projeto que seja pouco se fala sobre acessibilidade digital -como um deficiente visual poderia consumir
+                o conteúdo? Como faremos para pessoas com baixa cognição conseguirem entender o que está sendo proposto? Na verdade, o impeditivo para esse tipo de questionamento, e tentativa de implementação vem justamente da falta de investimentos,
+                e isso nos leva a outra pergunta.</p>
+            <img src="imagens/acess-dig.jpg" alt="Acessibilidade Digital" class="img">
+            <h1 class="parag">Por que investir em acessibilidade digital?</h1>
+
+
+            <p class="ini">Em 2019, <strong>69% dos participantes</strong> da <a href="http://www.clickawaypound.com/" target="_blank" rel="external" class="lin">pesquisa inglesa Click-Away Pound</a> disseram abandonar sites devido à essas “barreiras digitais”. Além
+                disso <strong>86% disseram que estariam dispostos a gastar</strong> mais em lojas virtuais se elas tivessem acessibilidade.</p>
+
+            <h1 class="parag">A essa altura você deve estar se perguntando...</h1>
+
+            <p class="ini">O que fazer para tornar seus conteúdos acessíveis?<br>Na lista abaixo seguem algumas dicas de como tornar seu site mais receptivo para deficientes.</p>
+            <ul>
+                <li><a href="https://guiaderodas.com/tecnologia-assistiva-o-que-e-quais-os-principais-exemplos/?gclid=CjwKCAjwmqKJBhAWEiwAMvGt6LPNgDnqV3vX4js0mZzVE-lrUCmchqq7XX5eTNdBqbRyYZMIUciuOxoCOCIQAvD_BwE" target="_blank" rel="external" class="list">Entenda o que são tecnologias assistivas</a>;
+
+                    <p class="ini-list">Na prática, dependendo do tipo de limitação que possuem, as pessoas utilizam tecnologias assistivas variadas para executarem tarefas. Elas vão das mais simples às mais complexas em seu dia a dia, inclusive no mundo digital.</p>
+
+                    <li><a href="https://rits.dev/blog/acessibilidade-digital/" target="_blank" rel="external" class="list">Crie conteúdo
+                        multiplataforma e multissensorial</a>;
+
+                        <p class="ini-list">Quanto mais sentidos, mais acessível. Para criarmos conteúdos cada vez mais inclusivos, precisamos considerar que as pessoas acessam as informações por diferentes canais sensoriais
+                        </p>
+
+                        <li><a href="https://dumela.tv/blog/legendas-em-videos/" target="_blank" rel="external" class="list">Use
+                        legendas em
+                        seus vídeos</a>;
+
+                            <p class="ini-list">Como já dito no começo da matéria no Brasil existem mais de 10 milhõs de deficientes auditivos, legendar seus vídeos permite que eles possam consumir essa mídia, além de fazê-los se sentir bem vindos.
+                            </p>
+
+                            <li><a href="https://mwpt.com.br/aprenda-por-que-e-como-voce-deve-descrever-imagens-no-digital/" target="_blank" rel="external" class="list">Inclua descrições das imagens</a>;
+
+                                <p class="ini-list">Para que as pessoas cegas e com baixa visão consigam acessar as informações na web, elas utilizam os leitores de tela. É uma tecnologia assistiva que converte texto em discurso sintetizado.</p>
+            </ul>
+        </article>
+    </main>
+    <div>
+        <p class="letter">Que tal receber dicas de assecibilidade direto em seu e-mail?</p>
+        <p>Nome: <input type="text" name="nome" id="nome" class="js"></p>
+        <p>E-mail: <input type="email" name="email" class="js"></p>
+        <input type="button" value="Confirmar" class="but" onclick="confirmar()">
+    </div>
+    <footer>
+        <p>Site desenvolvido por <a href="https://github.com/nicolasgaldino" target="_blank" rel="external" id="personal-link">Nícolas Galdino Esmael</a></p>
+    </footer>
+</body>
+<script>
+    function confirmar() {
+        var a1 = document.getElementById('nome').value
+        window.alert(`Obrigado por se cadastrar ${a1}.`)
+    }
+</script>
+
+</html>
